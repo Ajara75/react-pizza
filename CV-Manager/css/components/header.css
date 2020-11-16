@@ -1,0 +1,60 @@
+.header__logo {
+    margin-left: 278px;
+    padding-top: 52px;
+}
+.nav__menu {
+    margin-left: 724px;
+    margin-top: -35px;
+}
+.nav__link {
+    font-size: 16px;
+    color: #555555;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 46px;
+}
+.header__auth {
+    padding-left: 1383px;
+    margin-top: -55px;
+}
+.auth__login {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.auth__demo {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.btn__gray{
+    text-align: center; 
+    padding: 8px 10px; 
+    border: solid 8px #ffffff; 
+    color: #614bd3; 
+    font-weight: 700;
+    background:#ffffff;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 	
+    text-transform: uppercase;
+}
+.btn__gray:hover {
+    color: #fff;
+    font-weight: 500;
+    border-radius: solid 8px;
+    background-image: linear-gradient(62deg, #3a39c8 0%, #f88fff 100%);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+.nav__link:hover {
+    color: #614bd3;
+}
+.nav__dot {
+    display: none;
+    margin-top: 16px;
+    margin-left: -27px;
+}
+a.nav__link:hover+div {
+    display: block;
+}
