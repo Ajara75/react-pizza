@@ -1,3 +1,20 @@
+.hero__fon {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    z-index: -10000;
+    background: url("../../images/Group1.png");
+    background-image: linear-gradient(rgba(213, 233, 252, 0.61));
+    margin-top: -200px;
+    margin-left: 30px;
+    /* margin-top: -300px; */
+}
+.hero__dot {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -530px;
+}
 .hero__content {
     margin-left: 278px;
     margin-top: 220px;
@@ -44,6 +61,7 @@
     width: 168px;
     height: 58px;
     border-radius: 6px;
+    background-color: #ffffff;
     border: 0.5px solid #606168;
 }
 .color__btn:hover {
@@ -218,10 +236,46 @@
     margin-left: 1524px;
     margin-top: -320px;
 }
-.ellips__test {
-    width: 40px;
-height: 40px;
-border-radius: 20px;
-background-color: #ffffff;
-border: 10px solid #ffcf4a;
+.ellips__pink {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 150px;
+}
+.ellips__violet {
+    margin-left: 710px;
+    margin-top: 230px;
+}
+.animate__yellow {
+    margin-left: 1740px;
+    margin-top: -360px;
+}
+.box {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.pink {
+    animation-name: ellips__pink;
+    animation-timing-function: linear;
+}
+.violet {
+    animation-name: ellips__violet;
+    animation-timing-function: linear;
+}
+.yellow {
+    animation-name: ellips__yellow;
+    animation-timing-function: linear;
+}
+@keyframes ellips__pink  {
+    50%  { transform: translateY(-10px); }
+}
+@keyframes ellips__violet  {
+    0%  { transform: translateY(0); }
+    50%  { transform: translateY(-15px); }
+    100%  { transform: translateY(0); }
+}
+@keyframes ellips__yellow {
+    0%  { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100%  { transform: translateY(0); }
 }
