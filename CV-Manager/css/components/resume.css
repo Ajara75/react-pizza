@@ -1,0 +1,103 @@
+.resume__title {
+    font-size: 22px;
+    line-height: 33px;
+    color: #ffcf4a;
+    position: absolute;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 900px;
+    margin-top: 0;
+}
+.resume__subtitle {
+    font-size: 55px;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 75px;
+    color: #222222;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 675px;
+    margin-top: 21px;
+    text-align: center;
+}
+.resume__text {
+    width: 695px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 120px;
+    margin-left: 623px;
+    color: #606168;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.text__fon {
+    width: 1442px;
+height: 255px;
+text-align: center;
+margin-left: 240px;
+margin-top: 80px;
+border-radius: 10px;
+background-image: linear-gradient(96deg, #3a39c8 0%, #f88fff 100%);
+}
+.text__content {
+    width: 933px;
+    height: 100px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 300px;
+    padding-top: 76px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.cv__img {
+    width: 238px;
+    height: 279px;
+    margin-top: -200px;
+}
+.resume__button {
+    margin-top: 50px;
+    margin-left: 770px;
+}
+.btn__about,
+.btn__request {
+    font-size: 18px;
+    color: #606168;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.demo__btn {
+    width: 168px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 0.5px solid #606168;
+}
+.manager__btn {
+    width: 227px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 0.5px solid #606168;
+}
+.demo__btn:hover {
+    width: 168px;
+    height: 58px;
+    border: solid 1px #ffffff;
+    background-image: linear-gradient(57deg, #3a39c8 0%, #a954af 100%);
+}
+.manager__btn:hover {
+    width: 227px;
+    height: 58px;
+    border: solid 1px #ffffff;
+    background-image: linear-gradient(57deg, #3a39c8 0%, #a954af 100%);
+}
+.btn__about:hover,
+.btn__request:hover {
+    color: #ffffff;
+    font-size: 17px;
+}
