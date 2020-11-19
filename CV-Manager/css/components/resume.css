@@ -55,18 +55,21 @@ background-image: linear-gradient(96deg, #3a39c8 0%, #f88fff 100%);
     text-align: center;
 }
 .cv__img {
-    width: 238px;
-    height: 279px;
-    margin-top: -200px;
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    margin-top: -300px;
+    margin-left: 250px;
+    transform: rotate(18deg);
 }
 .resume__button {
-    margin-top: 50px;
+    margin-top: -100px;
     margin-left: 770px;
 }
 .btn__about,
 .btn__request {
     font-size: 18px;
-    color: #606168;
+    color:  #614bd3;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
@@ -74,15 +77,16 @@ background-image: linear-gradient(96deg, #3a39c8 0%, #f88fff 100%);
     width: 168px;
     height: 58px;
     border-radius: 6px;
-    background-color: #ffffff;
-    border: 0.5px solid #606168;
+    background-color:  #e1e1ee ;
+    border: 0.5px solid #ffffff;
 }
 .manager__btn {
     width: 227px;
     height: 58px;
     border-radius: 6px;
-    background-color: #ffffff;
-    border: 0.5px solid #606168;
+    background-color:  #e1e1ee ;
+    border: 0.5px solid #ffffff;
+    margin-left: 10px;
 }
 .demo__btn:hover {
     width: 168px;
@@ -100,4 +104,102 @@ background-image: linear-gradient(96deg, #3a39c8 0%, #f88fff 100%);
 .btn__request:hover {
     color: #ffffff;
     font-size: 17px;
+}
+.one__square {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    border-radius: 5px;
+    background-color: #614bd3;
+    opacity: .3;
+    z-index: 8;
+
+}
+.two__square {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    border-radius: 4px;
+    background-color: #614bd3;
+    opacity: .3;
+    z-index: 8;
+    margin-top: 63px;
+    margin-left: 70px;
+}
+.resume__square {
+    margin-left: 1340px;
+    margin-top: -230px;
+}
+.resume__yellow {
+    position: absolute;
+    margin-top: 200px;
+}
+.box {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.yellow {
+    animation-name: resume__yellow;
+    animation-timing-function: linear;
+}
+@keyframes resume__yellow {
+    0%  { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100%  { transform: translateY(0); }
+}
+.resume__ellips {
+    width: 123px;
+    height: 123px;
+    margin-left: 1830px;
+    margin-top: 20px;
+}
+.ellow__dot {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 9px;
+    background-color: #ffcf4a;
+    margin-left: 1770px;
+    margin-top: -40px;
+}
+.cv__company {
+    text-align: center;
+    margin-left: 155px;
+}
+.cv__year {
+    font-size: 45px;
+letter-spacing: 0px;
+line-height: 75px;
+color: #222222;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+margin-top: 95px;
+}
+.cv__start {
+    font-size: 16px;
+line-height: 26px;
+color: #222222;
+font-weight: 700;
+font-family: "Montserrat", sans-serif;
+text-align: center;
+margin-top: -40px;
+}
+.cv__abbreviation {
+    width: 276px;
+height: 45px;
+font-size: 16px;
+line-height: 26px;
+margin-top: -25px;
+color: #606168;
+font-weight: 400;
+font-family: "Montserrat", sans-serif;
+text-align: center;
+}
+.cv__clients,
+.cv__professional,
+.cv__service,
+.cv__manager {
+    margin-left: 100px;
 }
