@@ -165,7 +165,7 @@ background-image: linear-gradient(96deg, #3a39c8 0%, #f88fff 100%);
 }
 .cv__company {
     text-align: center;
-    margin-left: 155px;
+    padding-left: 155px;
 }
 .cv__year {
     font-size: 45px;
