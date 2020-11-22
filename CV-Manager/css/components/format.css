@@ -1,0 +1,46 @@
+.format__content {
+    margin-left: 1090px;
+    margin-top: 180px;
+}
+.format__title {
+    font-size: 22px;
+    line-height: 33px;
+    color: #ffcf4a;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.format__subtitle {
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 55px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.format__img {
+    margin-top: -750px;
+    margin-left: 200px;
+}
+.format__yellow {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.format__pink {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+}
+.format__path {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 320px;
+}
+.format__violet {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 340px;
+}
